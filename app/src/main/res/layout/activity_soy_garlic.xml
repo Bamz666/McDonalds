@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63275B"
+    tools:context=".SoyGarlic">
+
+    <RelativeLayout
+        android:id="@+id/foto_garlic"
+        android:layout_width="415dp"
+        android:layout_height="310dp"
+        android:background="@drawable/garlic">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            app:tint="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="67dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="-20dp"
+            android:layout_toRightOf="@id/back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu_titik" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_paket_hemat"
+        android:layout_width="365dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/foto_garlic"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="Paket Hemat Lezat: Beli 1 Korean Soy Garlic Wings (4 Pcs) Dapay 1 Large French Fries dengan Harga Spesial!"
+        android:textColor="#E4DFDF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_kedaluwarsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/txt_paket_hemat"
+        android:layout_marginLeft="15dp"
+        android:text="Kedaluwarsa 2023-04-05"
+        android:textColor="#AAA3A3" />
+
+    <TextView
+        android:id="@+id/txt_isi"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_kedaluwarsa"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:text="Beli Korean Soy Garlic Wings, Dapatkan Large French Fries Dengan Tambah Rp 13.636"
+        android:textColor="#E4DFDF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txt_syarat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_isi"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:textSize="16sp"
+        android:text="Persyaratan"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/sedang_besar"
+        android:layout_width="360dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txt_syarat"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_ukuran">
+
+        <TextView
+            android:id="@+id/txt_sedang"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_btn"
+            android:text="SEDANG"
+            android:textAlignment="center"
+            android:paddingTop="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BESAR"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/txt_sedang"
+            android:textSize="17sp"
+            android:paddingTop="18dp"
+            android:paddingLeft="60dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/sedang_besar"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:textColor="@color/white"
+        android:text="TUKAR"
+        android:textSize="17sp"
+        android:background="@drawable/rounded_tukar"/>
+
+</RelativeLayout>

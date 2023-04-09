@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kupon_page"
+    tools:context=".KuponActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_kupon"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        android:text="Punya Kode Kupon McDonald's?"
+        android:textAlignment="center"
+        android:textColor="#db0008"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_input_kode"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:text="Masukkan Kodenya Di Sini Ya"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="55dp"
+        android:paddingLeft="10dp"
+        android:hint="Contoh: ZXCV"
+        android:background="@drawable/rounded_kode"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="55dp"
+        android:text="Gunakan Kode Kupon"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_btn"/>
+
+</LinearLayout>

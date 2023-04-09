@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_1"
+        android:icon="@drawable/person"
+        android:title="Akun Saya"/>
+    <item
+        android:id="@+id/menu_item_2"
+        android:icon="@drawable/message"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/menu_item_3"
+        android:icon="@drawable/faq"
+        android:title="FAQ"/>
+    <item
+        android:id="@+id/menu_item_4"
+        android:icon="@drawable/mekdi"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/menu_item_5"
+        android:title="Menu Kami"/>
+    <item
+        android:id="@+id/menu_item_6"
+        android:title="Halal"/>
+    <item
+        android:id="@+id/menu_item_7"
+        android:title="Makanan"/>
+    <item
+        android:id="@+id/menu_item_8"
+        android:title="Kebijakan Privasi"/>
+</menu>
